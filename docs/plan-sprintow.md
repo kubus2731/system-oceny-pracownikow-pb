@@ -103,7 +103,7 @@ Każdy z zespołu pełni tę rolę w co najmniej jednym sprincie.
 
 | Sprint | Właściciel produktu |
 |--------|---------------------|
-| 1 | TODO |
+| 1 | Jakub Matusiewicz |
 | 2 | TODO |
 | 3 | TODO |
 | 4 | TODO |
