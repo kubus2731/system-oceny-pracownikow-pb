@@ -38,7 +38,7 @@ liczone automatycznie, weryfikacja odbywa się online, a historia ocen jest zaws
 | Komisja | Wykonuje 2. etap weryfikacji |
 | Administrator / Dział Kadr | Monitoruje osiągnięcia, wprowadza wybrane dane, wysyła przypomnienia, robi raporty |
 
-**Użytkownik końcowy, z którym będziemy konsultować wymagania: dr inż. Maciej Kopczyński
+**Użytkownik końcowy, z którym będziemy konsultować wymagania:** dr inż. Maciej Kopczyński
 
 ## 4. Zakres: co system będzie robił
 
@@ -78,11 +78,15 @@ liczone automatycznie, weryfikacja odbywa się online, a historia ocen jest zaws
 
 ## 7. Zespół i podział pracy
 
-| Osoba | Obszar (grupa funkcjonalności) |
-|-------|--------------------------------|
-| TODO | TODO |
-| TODO | TODO |
-| TODO | TODO |
+Zespół dzieli się na część backendową i frontendową, a pracę koordynuje Jakub Matusiewicz
+
+| Osoba | Rola w zespole | Obszar odpowiedzialności |
+|-------|----------------|--------------------------|
+| Jakub Matusiewicz | Team / Tech Lead | Architektura systemu, Spring Security (logowanie, JWT, role), przegląd Pull Requestów, koordynacja pracy |
+| Kinga Kardasz | Backend | Rdzeń aplikacji, model i migracje bazy danych, przebieg oceny (statusy, dwuetapowa weryfikacja) |
+| Urszula Łokić | Backend | Import danych, generowanie arkuszy oceny (PDF), raporty i analityka |
+| Yelizaveta Anoshyna | Frontend | Główny interfejs, formularze osiągnięć, przebieg oceny po stronie użytkownika |
+| Adam Boryszewski | Frontend / DevOps | Panel administratora / Działu Kadr, wykresy (Chart.js), Docker i Docker Compose |
 
 > Każda osoba ma swoją grupę funkcjonalności (np. pracownik, przełożony, administrator, definiowanie systemów oceny), tutaj trzeba ustalić podział bo bez tego to nie ma sensu.
 
@@ -102,14 +106,14 @@ Rola właściciela produktu zmienia się między sprintami (patrz `plan-sprintow
 | Zmiana regulaminu oceny w trakcie projektu | Definicje systemów oceny są wersjonowane, więc nowe zasady nie psują starych ocen (Sprint 3) |
 | Model systemów oceny okaże się zbyt skomplikowany | Na początek obsługujemy jeden system oceny, kolejne dodajemy później |
 
-## 10. Sposób pracy( do przemyślenia)
+## 10. Sposób pracy
 
 - Metodyka: Scrum, sprinty, daily scrum, sprint planning / review / retrospective
 - Zadania szacujemy w godzinach i porównujemy z czasem rzeczywistym na retrospektywie
 - Każde zadanie to osobna gałąź i Pull Request przeglądany przez drugą osobę
 - Dokumentację i testy robimy w trakcie sprintów
 
-## 11. Kryteria sukcesu( troche czat pomagał, ale to tylko taki wstęp)
+## 11. Kryteria sukcesu
 
 Projekt uznajemy za udany, jeśli:
 
