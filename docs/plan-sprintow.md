@@ -1,4 +1,4 @@
-# Plan sprintów( to jest bazówka i tak naprawdę można jutro wszystko pozmieniać)
+# Plan sprintów
 
 Plan jest **orientacyjny**. Może się zmieniać w trakcie projektu, gdy lepiej poznamy zakres i czas pracy.
 
