@@ -88,8 +88,6 @@ Zespół dzieli się na część backendową i frontendową, a pracę koordynuje
 | Yelizaveta Anoshyna | Frontend | Główny interfejs, formularze osiągnięć, przebieg oceny po stronie użytkownika |
 | Adam Boryszewski | Frontend / DevOps | Panel administratora / Działu Kadr, wykresy (Chart.js), Docker i Docker Compose |
 
-> Każda osoba ma swoją grupę funkcjonalności (np. pracownik, przełożony, administrator, definiowanie systemów oceny), tutaj trzeba ustalić podział bo bez tego to nie ma sensu.
-
 Rola właściciela produktu zmienia się między sprintami (patrz `plan-sprintow.md`).
 
 ## 8. Plan i harmonogram
