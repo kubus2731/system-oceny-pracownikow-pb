@@ -1,27 +1,25 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
-
+import { Navigate, Route, Routes } from "react-router-dom";
+import Login from "./pages/Login";
+import Profile from "./pages/Profile";
+import ProtectedRoute from "./ProtectedRoute";
 
 function App() {
   return (
-    <div>
-      <h1>System Oceny Okresowej Pracowników</h1>
+    <Routes>
+      <Route path="/login" element={<Login />} />
 
-      <p>Panel oceny nauczycieli akademickich</p>
+      <Route
+        path="/profile"
+        element={
+          <ProtectedRoute>
+            <Profile />
+          </ProtectedRoute>
+        }
+      />
 
-      <h2>Menu główne</h2>
-
-      <ul>
-        <li>Moje dane</li>
-        <li>Moje osiągnięcia</li>
-        <li>Ocena okresowa</li>
-        <li>Historia ocen</li>
-      </ul>
-    </div>
+      <Route path="*" element={<Navigate to="/login" replace />} />
+    </Routes>
   );
 }
 
-export default App
+export default App;
